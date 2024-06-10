@@ -5,3 +5,5 @@ Flask-JWT-Extended
 flask-swagger-ui
 pytest
 pytest-flask
+pip install -r requirements.txt
+gunicorn --worker-tmp-dir /dev/shm app.run:app
